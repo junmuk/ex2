@@ -1,0 +1,17 @@
+//github.com
+//ex2 라는 저장소를 만든다
+
+//PC 처음 명령어
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/junmuk/ex2.git
+git push -u origin master
+
+// 소스 수정 후 명령어
+git add .
+git commit -m "xxx commit"
+git push -u origin master
+
+//AWS
+git clone https://github.com/junmuk/ex2.git
